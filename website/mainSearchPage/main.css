@@ -17,7 +17,6 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -40,9 +39,9 @@ body {
 }
 
 input[name=search] {
-    background-image: url('icon/searchicon.png'); /** TODO: add a image here*/
+    background-image: url('icon/searchicon.png');
 }
-input[type=text] {
+input[name=search] {
     width: 130px;
     background-color: white;
     background-position: 5px 5px;
@@ -52,13 +51,22 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[name=search]:focus {
     width: 100%;
 }
 
-.search .form-section{
-    background:rgba(0,0,0,0.6);
-    border: 2px solid #414141;
+.search-bar {
+    margin-bottom: 30px;
+}
+
+.search-bar .form-section {
+    background: #5bc0de;
+    border: 2px solid #337ab7;
     border-radius: 5px;
     padding: 10px;
 }
+
+.search-bar .form-section .form-group {
+    margin: 0px;
+}
+

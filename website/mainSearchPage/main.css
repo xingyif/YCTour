@@ -19,7 +19,7 @@ body {
 .carousel {
     opacity: 0.9;
     height: 700px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .navbar {
@@ -84,7 +84,7 @@ input[name=search]:focus {
 
 /*search bar*/
 .search-bar {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .search-bar .form-section {

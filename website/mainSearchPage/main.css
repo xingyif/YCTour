@@ -66,9 +66,9 @@ body {
 /*--------------------------------------------------  Carousel Done ------------------------------------------------ */
 
 input[name=search] {
-    background-image: url('icon/searchicon.png'); /** TODO: add a image here*/
+    background-image: url('icon/searchicon.png');
 }
-input[type=text] {
+input[name=search] {
     width: 130px;
     background-color: white;
     background-position: 5px 5px;
@@ -78,14 +78,23 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[name=search]:focus {
     width: 100%;
 }
+
 /*search bar*/
-.search .form-section{
-    /*background: rgba(193, 231, 228, 0.6);*/
-    /*border: 2px solid #cee9ee;*/
-    /*opacity: 0.0;*/
+.search-bar {
+    margin-bottom: 30px;
+}
+
+.search-bar .form-section {
+    background: #5bc0de;
+    border: 2px solid #337ab7;
     border-radius: 5px;
     padding: 1px;
 }
+
+.search-bar .form-section .form-group {
+    margin: 0px;
+}
+

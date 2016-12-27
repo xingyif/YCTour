@@ -10,7 +10,7 @@
     <meta name="author" content="Yifan Xing, Cheng Lin">
     <link rel="icon" href="../../favicon.ico">  <!-- TODO: add icon image -->
 
-    <title>Icon: YC Tour Inc.</title>
+    <title>Icon: YCTour Inc.</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet"
@@ -34,7 +34,7 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">YC Tour Inc.</a>
+          <div class="navbar-brand"><a href="#">YCTour Inc.</a></div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-left" role="search">
@@ -42,11 +42,11 @@
               <input type="text" class="form-control" name="search" placeholder="Search">
             </div>
           </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Start Your Tour!</a></li>
-            <li><a href="#">Login/Register</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <div class="nav-start">
+            <a href="#">Start Your Tour!</a>
+            <a href="#">Login/Register</a>
+            <a href="#">Contact</a>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -59,32 +59,35 @@
         <li data-target="#schoolCarousel" data-slide-to="1"></li>
         <li data-target="#schoolCarousel" data-slide-to="2"></li>
       </ol>
+
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="image/Northeastern_University.jpg" alt="First slide">
+          <img class="first-slide" src="image/NEU.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Northeastern University<br>Boston, MA</h1>
+              <h1>Northeastern University</h1>
+                <h4>Be Creative and Find Your Own Passion</h4>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Book A Trip</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="image/MIT-dome-at-night.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>MIT</h1>
+              <h4>Explore and Get Inspired</h4>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book A Trip</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="image/Harvard-University.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Harvard</h1>
+              <h4>Feel the History Here and Draw Your Own Story</h4>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book A Trip</a></p>
             </div>
           </div>
         </div>
@@ -112,12 +115,10 @@
                                       <form role="form">
                                           <div class="col-md-4">
                                               <div class="form-group">
-                                                  <label class="sr-only" for="location">Location </label><input type="text" class="form-control" id="location" placeholder="Where would you like to travel?">
-
-                                                  <label class="sr-only" for="checkin">Check in</label>
-                                                      <input type="text" class="form-control"
+                                                  <label class="sr-only" for="location">Location </label>
+                                                  <input type="text" class="form-control" id="location" placeholder="Where to go"><label class="sr-only" for="checkin">Check in</label><input type="text" class="form-control"
                                                              id="checkin" placeholder="Check in">
-                                                      <span class="input-group-addon">
+                                                  <span class="input-group-addon">
                                                           <i class="glyphicon glyphicon-calendar"></i></span>
 
                                                   <label class="sr-only" for="checkout">Check out</label>
@@ -170,7 +171,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p class="pull-left">&copy; 2017 YC Tour, Inc. &middot; <a href="#">Privacy</a>
+        <p class="pull-left">&copy; 2017 YCTour, Inc. &middot; <a href="#">Privacy</a>
                 &middot; <a href="#">Terms</a></p>
       </footer>
     </div>

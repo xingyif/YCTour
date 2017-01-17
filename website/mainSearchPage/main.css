@@ -65,6 +65,22 @@ body {
 }
 /*--------------------------------------------------  Carousel Done ------------------------------------------------ */
 
+/* ----- Featurettes ----- */
+
+.featurette {
+	text-align: left;
+}
+
+.featurette-divider {
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
 input[name=search] {
     background-image: url('icon/searchicon.png');
 }
@@ -92,5 +108,20 @@ input[name=search]:focus {
     border: 2px solid #337ab7;
     border-radius: 5px;
     padding: 1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 70px;
+  }
 }
 

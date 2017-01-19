@@ -1,6 +1,11 @@
 YC Tour
 =======
 
+* A private trip-booking application that provides peer-to-peer connection between university students and tourists 
+* Provides an opportunity for tourists from other cities or countries to travel Boston's prestigious universities
+* Provides a platefrom for tourists to directly communicate with local students and book lectures at local universities
+
+
 TODO
 ====
 

@@ -4,7 +4,8 @@
 /* Custom default button */
 .btn-default, .btn-default:hover, .btn-default:focus {
     color: #fbfff8;
-    background-color: #74b8e7;
+    background-color:     #74b8e7;
+            /*#555555;*/
     border: 1px solid #fff;
 }
 
@@ -104,10 +105,15 @@ input[name=search]:focus {
 }
 
 .search-bar .form-section {
-    background: #5bc0de;
-    border: 2px solid #337ab7;
-    border-radius: 5px;
-    padding: 1px;
+    /*background: #5bc0de;*/
+    /*border: 2px solid #337ab7;*/
+    border-radius: 20px;
+    padding: -20px;
+    position: absolute;
+    left: 120px;
+    top: 400px;
+    width: 900px;
+    background-color: transparent;
 }
 
 /* RESPONSIVE CSS

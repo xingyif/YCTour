@@ -115,15 +115,15 @@
             <div class="col-md-3">
               <label class="sr-only" for="checkin">Check in</label>
               <div class="input-group">
-                <input type="text" class="form-control" id="checkin" placeholder="Check in">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                <input type="date" class="form-control" id="checkin" placeholder="Check in">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar" ></i></span>
               </div>
             </div>
             <div class="col-md-3">
               <label class="sr-only" for="checkout">Check out</label>
               <div class="input-group">
-                <input type="text" class="form-control" id="checkout" placeholder="Check out">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                <input type="date" class="form-control" id="checkout" placeholder="Check out">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar" type="date"></i></span>
               </div>
             </div>
             <div class="col-md-2">
@@ -242,12 +242,22 @@
       </footer>
     </div>
 
+
+
+    <!------------------search bar calendar---------------->
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script src="js/searchBarCalendar.js"></script>
+
+
   </body>
 </html>

@@ -15,5 +15,4 @@ TODO
 * Calender for main search bar
 * Image in featured section are not of the same size, need to figure out how to strech them
 * Better CSS for main page (e.g. the descriptions in the featured section)
-* Create Tour Guide Registration Page with more fields to fill in (e.g. birthday, school)
-* Automatically add '*' to the end of the label of the required field
+
